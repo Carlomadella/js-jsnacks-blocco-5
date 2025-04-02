@@ -21,3 +21,10 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+
+const sezione = students.filter((element) => element.name === 'Marco Lanci')
+  console.log(sezione);
+
+const marco = sezione.forEach((section) =>{
+  console.log(section.class)
+})
